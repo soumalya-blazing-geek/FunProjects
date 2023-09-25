@@ -10,7 +10,7 @@
  [#] How to use :
 	Clone the repository or download the calculator.c file.
 	Open terminal or command prompt and navigate to the directory where the file is located.
-  	compile the program by typing # gcc calculator.c -o calculator -lm in the terminal.
+  	Compile the program by typing # gcc calculator.c -o calculator -lm in the terminal.
 	Run the script by typing # ./calculator in the terminal or command prompt.
 	Enter the option 'help' to know about all features.
 	Enter the two numbers for the calculation.
