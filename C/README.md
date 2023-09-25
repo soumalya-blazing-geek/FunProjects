@@ -1,38 +1,59 @@
-[#] Overview :
-	This guide provides information on how to use the C calculator and its features.
-	The calculator is a basic tool that can perform basic arithmetic operations such as addition, subtraction, multiplication, division and lot's more.
+# C Calculator
 
-[#] Requirements :
-	Gcc 12.3.0 or higher version must be installed.
-    
-[#] Code structure :
-  The code is divided into two parts:
-	The main function which handles the user input and displays the result.
-	The calculator function which performs the calculation and returns the result.
-    
-[#] How to use :
-	Clone the repository or download the calculator.c file.
-	Open terminal or command prompt and navigate to the directory where the file is located.
-  	Compile the program by typing # gcc calculator.c -o calculator -lm in the terminal.
-	Run the script by typing # ./calculator in the terminal or command prompt.
-	Enter the option 'help' to know about all features.
-	Enter the two numbers for the calculation.
-	The result will be displayed on the screen.
-    
-[#] Features :
-	Performs basic arithmetic operations (addition, subtraction, multiplication, and division).
-	User-friendly interface for entering numbers and operations.
-	Provides results for simple calculations.
+## Overview
 
-[#] Limitations :
-	Currently only performs basic arithmetic operations.
-	No support for more advanced calculations.
-	Can only handle two numbers at a time.
-    
-[#] Support :
-	For any questions or issues regarding the calculator, please contact the developer Soumalya Naskar.
-	Just email <soumalya191@gmail.com> and you connect with the developer of this program.
+This guide provides information on how to use the C calculator and its features. The calculator is a basic tool that can perform fundamental arithmetic operations such as addition, subtraction, multiplication, division, and more.
 
-[#] Conclusion :
-	This calculator is a simple and easy-to-use tool for basic arithmetic calculations.
-	Its basic features make it a good choice for simple arithmetic operations, but it may not be suitable for more advanced calculations.
+## Requirements
+
+To use this calculator, you need to have Gcc 12.3.0 or a higher version installed on your system.
+
+## Code Structure
+
+The code is divided into two parts:
+
+1. **Main Function**: Handles user input and displays the result.
+2. **Calculator Function**: Performs calculations and returns the result.
+
+## How to Use
+
+1. Clone the repository or download the `calculator.c` file.
+2. Open your terminal or command prompt and navigate to the directory where the file is located.
+3. Compile the program by running the following command:
+
+    ```shell
+    gcc calculator.c -o calculator -lm
+    ```
+
+4. Run the calculator by typing:
+
+    ```shell
+    ./calculator
+    ```
+
+5. Enter the option 'help' to view a list of all available features.
+6. Enter the two numbers for the calculation.
+7. The result will be displayed on the screen.
+
+## Features
+
+- Performs basic arithmetic operations (addition, subtraction, multiplication, and division).
+- User-friendly interface for entering numbers and operations.
+- Provides results for simple calculations.
+
+## Limitations
+
+- Currently, it only supports basic arithmetic operations.
+- There is no support for more advanced calculations.
+- The calculator can only handle two numbers at a time.
+
+## Support
+
+For any questions or issues regarding the calculator, please contact the developer:
+
+**Soumalya Naskar**
+- Email: soumalya191@gmail.com
+
+## Conclusion
+
+This calculator is a simple and easy-to-use tool for basic arithmetic calculations. Its basic features make it a good choice for simple arithmetic operations, but it may not be suitable for more advanced calculations.
