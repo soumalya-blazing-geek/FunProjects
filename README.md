@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @soumalya-blazing-geek
+- 👋 Hi, I’m Soumalya Naskar
 - 👀 I’m interested in C, C++, python.
 - 🌱 I’m currently learning C++.
 - 📫 To reach me follow @blazing_soumalya on Instagram.
