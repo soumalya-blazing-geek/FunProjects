@@ -1,6 +1,9 @@
 [#] Overview :
 	This guide provides information on how to use the C calculator and its features.
 	The calculator is a basic tool that can perform basic arithmetic operations such as addition, subtraction, multiplication, division and lot's more.
+
+ [#] Requirements :
+	Gcc 12.3.0 or higher version must be installed.
     
  [#] Code structure :
   The code is divided into two parts:
