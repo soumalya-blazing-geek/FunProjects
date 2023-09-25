@@ -18,7 +18,7 @@ To get started with these fun projects, you'll need a basic understanding of C a
 To run these projects, you'll need the following:
 
 - A C compiler (e.g., GCC)
-- Python (version 3.x)
+- Python (version 3.10)
 
 ### Installation
 
