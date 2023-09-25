@@ -239,5 +239,5 @@ int main() {
             printf("\n ERROR: You have entered an invalid option!\n");
         }
     }
-    return 0; // End of this code
-}
+    return 0; // Successfully exit this program
+} // End of this code
