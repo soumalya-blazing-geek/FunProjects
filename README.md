@@ -5,9 +5,8 @@ Welcome to the Fun Project Repository! This repository contains a collection of 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-- [Projects](#projects)
-- [Contributing](#contributing)
-- [License](#license)
+- [Prerequisites](#prerequisits)
+- [Installation](#installation)
 
 ## Getting Started
 
@@ -25,4 +24,4 @@ To run these projects, you'll need the following:
 1. Clone this repository to your local machine:
 
    ```sh
-   git clone https://github.com/your-username/fun-project-repo.git
+   git clone https://github.com/soumalya-blazing-geek/FunProjects.git
