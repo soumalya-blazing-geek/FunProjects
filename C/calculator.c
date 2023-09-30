@@ -258,7 +258,7 @@ int main() {
             printf("\n ANSWER:\n");
             for (int i = 1; i <= 10; i++) {
                 int result = table * i;
-                printf(" ---->> %d X %d = %d <<----\n", table, i, result);
+                printf("\n ---->> %d X %d = %d <<----\n", table, i, result);
             }
             printf(" ------------------------------------------------\n");
         }
