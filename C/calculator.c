@@ -250,7 +250,7 @@ int main() {
                 if (scanf("%d", &table) == 1) {
                     break;
                 } else {
-                    printf("\n ERROR: Please enter a valid number!\n");
+                    printf(" ERROR: Please enter a valid number!\n");
                     // Clear the input buffer in case of invalid input
                     while (getchar() != '\n');
                 }
@@ -258,7 +258,7 @@ int main() {
             printf("\n ANSWER:\n");
             for (int i = 1; i <= 10; i++) {
                 int result = table * i;
-                printf("\n ---->> %d X %d = %d <<----\n", table, i, result);
+                printf(" ---->> %d X %d = %d <<----\n", table, i, result);
             }
             printf(" ------------------------------------------------\n");
         }
