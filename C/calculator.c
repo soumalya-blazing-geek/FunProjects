@@ -189,6 +189,79 @@ int main() {
             printf("\n ANSWER: Simple Interest is %.2f\n", (principal * rate * time) / 100);
             printf(" ------------------------------------------------\n");
         }
+        else if (strcmp(option, "finday") == 0) {
+            // Find The Day
+            int findDay(int year, int month, int day) {
+                if (month < 3) {
+                    month += 12;
+                    year--;
+                }
+                int k = year % 100;
+                int j = year / 100;
+                int dayOfWeek = ((day + ((13 * (month + 1)) / 5) + k + (k / 4) + (j / 4) - (2 * j)) % 7)-1;
+                // Adjust dayOfWeek to have Sunday as 0, Monday as 1, ..., and Saturday as 6.
+                if (dayOfWeek < 0) {
+                    dayOfWeek += 7;
+                }
+                return dayOfWeek;
+            }
+            int day, month, year;
+            while (1) {
+                printf("\n Enter the day: ");
+                if (scanf("%d", &day) == 1 && day >= 1 && day <= 31) {
+                    break;
+                } else {
+                    printf(" ERROR: Please enter a valid day!\n");
+                    while (getchar() != '\n'); // Clear input buffer
+                }
+            }
+            while (1) {
+                printf(" Enter the month: ");
+                if (scanf("%d", &month) == 1 && month >= 1 && month <= 12) {
+                    break;
+                } else {
+                    printf(" ERROR: Please enter a valid month!\n");
+                    while (getchar() != '\n'); // Clear input buffer
+                }
+            }
+            while (1) {
+                printf(" Enter the year: ");
+                if (scanf("%d", &year) == 1 && year >= 1) {
+                    break;
+                } else {
+                    printf(" ERROR: Please enter a valid year!\n");
+                    while (getchar() != '\n'); // Clear input buffer
+                }
+            }
+            int dayOfWeek = findDay(year, month, day);
+            const char *days[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+            if (dayOfWeek >= 0 && dayOfWeek < 7) {
+                printf("\n ANSWER: The day on %d/%d/%d was %s.\n", day, month, year, days[dayOfWeek]);
+            } else {
+                printf("\n ERROR: Invalid date.\n");
+            }
+            printf(" ------------------------------------------------\n");
+        }
+        else if (strcmp(option, "multi_tb") == 0) {
+            // Multiplication Table
+            int table;
+            while (1) {
+                printf("\n Enter the number for multiplication table: ");
+                if (scanf("%d", &table) == 1) {
+                    break;
+                } else {
+                    printf("\n ERROR: Please enter a valid number!\n");
+                    // Clear the input buffer in case of invalid input
+                    while (getchar() != '\n');
+                }
+            }
+            printf("\n ANSWER:\n");
+            for (int i = 1; i <= 10; i++) {
+                int result = table * i;
+                printf("\n ---->> %d X %d = %d <<----\n", table, i, result);
+            }
+            printf(" ------------------------------------------------\n");
+        }
         else if (strcmp(option, "help") == 0) {
             // Help
             printf("\n (#) Enter 'plus' to select plus.\n");
@@ -201,6 +274,8 @@ int main() {
             printf(" (#) Enter 'cube_rt' to select cube root.\n");
             printf(" (#) Enter 'power' to select power.\n");
             printf(" (#) Enter 'interest' to select interest.\n");
+            printf(" (#) Enter 'finday' to select Find The Day.\n");
+            printf(" (#) Enter 'multi_tb' to select Multiplication Table.\n");
             printf(" (#) Enter 'info' to select info.\n");
             printf(" (#) Enter 'quit' to select exit.\n");
             printf(" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
@@ -232,7 +307,7 @@ int main() {
         }
         else if (strcmp(option, "quit") == 0) {
             printf("\n ~~~~~ ::: Good bye ::: ~~~~~\n");
-            break; // Exit the program.
+            break; // Exit the program
         }
         else {
             // Error
@@ -240,4 +315,5 @@ int main() {
         }
     }
     return 0; // Successfully exit this program
-} // End of this code
+}
+// End of this code
