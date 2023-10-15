@@ -3,13 +3,6 @@
 
 PassX is a web-based password manager designed to simplify your online life and enhance security. This application allows you to securely store, manage, and access your passwords and sensitive information. PassX offers an intuitive user interface, along with essential features for password management.
 
-## Table of Contents
-
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-
 ## Features
 
 - **Password Storage**: Safely store your website passwords, usernames, and strong passwords.
@@ -51,7 +44,13 @@ We welcome contributions to improve PassX. To contribute:
 
 Please follow best practices and maintain clear commit messages.
 
+## Support
+
+For any questions or issues regarding the calculator, please contact the developer:
+
+**Soumalya Naskar**
+- Email: soumalya191@gmail.com
 
 ---
 
-Developed with ❤️ by Soumalya Naskar | [[Github](https://github.com/soumalya-blazing-geek)] | [[Instagram](https://instagram.com/blazing_soumalya)]
+Developed with ❤️ by Soumalya Naskar | [[Github](https://github.com/soumalya-blazing-geek)] | [[Instagram](https://instagram.com/blazing_soumalya)] | 
