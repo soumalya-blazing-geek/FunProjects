@@ -1,6 +1,5 @@
 # PassX - Your Personal Password Manager
 
-![PassX Logo](./path-to-your-logo.png)
 
 PassX is a web-based password manager designed to simplify your online life and enhance security. This application allows you to securely store, manage, and access your passwords and sensitive information. PassX offers an intuitive user interface, along with essential features for password management.
 
@@ -55,4 +54,4 @@ Please follow best practices and maintain clear commit messages.
 
 ---
 
-Developed with ❤️ by [Soumalya Naskar] | [[Github](https://github.com/soumalya-blazing-geek)] | [soumalya191@gmail.com]
+Developed with ❤️ by Soumalya Naskar | [[Github](https://github.com/soumalya-blazing-geek)] | [[Contact](soumalya191@gmail.com)]
