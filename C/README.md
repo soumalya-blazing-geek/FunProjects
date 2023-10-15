@@ -57,3 +57,7 @@ For any questions or issues regarding the calculator, please contact the develop
 ## Conclusion
 
 This calculator is a simple and easy-to-use tool for basic arithmetic calculations. Its basic features make it a good choice for simple arithmetic operations, but it may not be suitable for more advanced calculations.
+
+---
+
+Developed with ❤️ by Soumalya Naskar | [[Github](https://github.com/soumalya-blazing-geek)] | [[Instagram](https://instagram.com/blazing_soumalya)]
