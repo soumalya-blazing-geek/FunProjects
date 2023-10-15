@@ -60,4 +60,4 @@ This calculator is a simple and easy-to-use tool for basic arithmetic calculatio
 
 ---
 
-Developed with ❤️ by Soumalya Naskar | [[Github](https://github.com/soumalya-blazing-geek)] | [[Instagram](https://instagram.com/blazing_soumalya)]
+Developed with ❤️ by Soumalya Naskar | [[GITHUB](https://github.com/soumalya-blazing-geek)] | [[INSTAGRAM](https://instagram.com/blazing_soumalya)] | [[TWITTER](https://x.com/soumalya_1729)]
