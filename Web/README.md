@@ -46,7 +46,7 @@ Please follow best practices and maintain clear commit messages.
 
 ## Support
 
-For any questions or issues regarding the calculator, please contact the developer:
+For any questions or issues regarding the password manager, please contact the developer:
 
 **Soumalya Naskar**
 - Email: soumalya191@gmail.com
