@@ -4,7 +4,7 @@ Welcome to the Fun Project Repository!
 This repository contains a collection of fun projects.
 These projects are designed to be educational, entertaining, and perhaps a bit quirky.
 
-### Limitations
+## Limitations
 
 While these fun projects aim to provide an enjoyable coding experience, it's important to be aware of their limitations:
 
@@ -22,7 +22,7 @@ While these fun projects aim to provide an enjoyable coding experience, it's imp
 
 Please keep these limitations in mind and use these projects accordingly. If you encounter issues or have suggestions for improvements, we encourage you to contribute or report them through the project's issue tracker.
 
-### Installation
+## Installation
 
 1. Clone this repository to your local machine:
 
