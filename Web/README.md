@@ -54,4 +54,4 @@ Please follow best practices and maintain clear commit messages.
 
 ---
 
-Developed with ❤️ by Soumalya Naskar | [[Github](https://github.com/soumalya-blazing-geek)]
+Developed with ❤️ by Soumalya Naskar | [[Github](https://github.com/soumalya-blazing-geek)] | [[Instagram](https://instagram.com/blazing_soumalya)]
