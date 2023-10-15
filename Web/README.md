@@ -53,4 +53,4 @@ For any questions or issues regarding the calculator, please contact the develop
 
 ---
 
-Developed with ❤️ by Soumalya Naskar | [[Github](https://github.com/soumalya-blazing-geek)] | [[Instagram](https://instagram.com/blazing_soumalya)] | 
+Developed with ❤️ by Soumalya Naskar | [[Github](https://github.com/soumalya-blazing-geek)] | [[Instagram](https://instagram.com/blazing_soumalya)] | [[Twitter](https://x.com/soumalya_1729)]
