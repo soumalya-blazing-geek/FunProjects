@@ -1,6 +1,8 @@
 # Fun Project Repository
 
-Welcome to the Fun Project Repository! This repository contains a collection of fun projects. These projects are designed to be educational, entertaining, and perhaps a bit quirky.
+Welcome to the Fun Project Repository!
+This repository contains a collection of fun projects.
+These projects are designed to be educational, entertaining, and perhaps a bit quirky.
 
 ### Installation
 
