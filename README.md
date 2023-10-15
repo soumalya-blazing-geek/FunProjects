@@ -28,3 +28,14 @@ Please keep these limitations in mind and use these projects accordingly. If you
 
    ```sh
    git clone https://github.com/soumalya-blazing-geek/FunProjects.git
+
+## Support
+
+For any questions or issues regarding the password manager, please contact the developer:
+
+**Soumalya Naskar**
+- Email: soumalya191@gmail.com
+
+---
+
+Developed with ❤️ by Soumalya Naskar | [[Github](https://github.com/soumalya-blazing-geek)] | [[Instagram](https://instagram.com/blazing_soumalya)] | [[Twitter](https://x.com/soumalya_1729)]
