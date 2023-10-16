@@ -32,17 +32,25 @@ Alternatively, you can host the HTML file on a web server to make it accessible 
 
 5. **Deleting Passwords**: To delete a stored password, click the "Delete" button next to the respective entry. A confirmation prompt will appear before deletion.
 
-## Contributing
+## Limitations
 
-We welcome contributions to improve PassX. To contribute:
+PassX is designed with simplicity in mind, and it comes with some limitations:
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with descriptive messages.
-4. Push your changes to your fork.
-5. Submit a pull request to the main repository.
+1. **Manual Password Entry**: PassX requires users to manually input their passwords for each website. It lacks automated password capture and storage.
 
-Please follow best practices and maintain clear commit messages.
+2. **No Password Generator**: PassX does not include a password generator, so users must create their own passwords.
+
+3. **No Password Suggestions**: PassX does not provide password suggestions or strength assessments when creating or updating passwords.
+
+4. **No Cloud Backups**: PassX does not offer cloud-based backups of stored passwords. In the event of data loss on the user's local device, there is no cloud-based backup to recover passwords.
+
+5. **Limited Functionality**: PassX offers basic password storage and retrieval features. It may not have advanced functionalities, such as secure password sharing, password change reminders, or password strength analysis.
+
+6. **Lack of Cross-Platform Support**: PassX is primarily web-based and may not have dedicated mobile apps, limiting seamless multi-device support.
+
+7. **Minimal Organizational Tools**: PassX may not provide advanced organizational features, making it less suitable for users with a large number of accounts.
+
+8. **No Advanced Security Features**: PassX lacks advanced security features like two-factor authentication (2FA) and breach monitoring.
 
 ## Support
 
