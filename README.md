@@ -29,6 +29,18 @@ Please keep these limitations in mind and use these projects accordingly. If you
    ```sh
    git clone https://github.com/soumalya-blazing-geek/FunProjects.git
 
+## Contributing
+
+We welcome contributions to FunProjets Repository. To contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive messages.
+4. Push your changes to your fork.
+5. Submit a pull request to the main repository.
+
+Please follow best practices and maintain clear commit messages.
+
 ## Support
 
 For any questions or issues regarding the password manager, please contact the developer:
