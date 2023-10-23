@@ -31,7 +31,7 @@ int main() {
                 while (getchar() != '\n'); // Clear the input buffer
             }
             printf("\n ✅ ANSWER: %.2f plus %.2f is %.2f\n", plus_1, plus_2, plus_1 + plus_2);
-            printf(" ------------------------------------------------\n");
+            printf(" ༒------------------------------------------------༒\n");
         }
         else if (strcmp(option, "minus") == 0) {
             // Subtraction
@@ -49,7 +49,7 @@ int main() {
                 while (getchar() != '\n'); // Clear the input buffer
             }
             printf("\n ✅ ANSWER: %.2f minus %.2f is %.2f\n", minus_1, minus_2, minus_1 - minus_2);
-            printf(" ------------------------------------------------\n");
+            printf(" ༒------------------------------------------------༒\n");
         }
         else if (strcmp(option, "multi") == 0) {
             // Multiplication
@@ -67,7 +67,7 @@ int main() {
                 while (getchar() != '\n'); // Clear the input buffer
             }
             printf("\n ✅ ANSWER: %.2f multiply %.2f is %.2f\n", multi_1, multi_2, multi_1 * multi_2);
-            printf(" ------------------------------------------------\n");
+            printf(" ༒------------------------------------------------༒\n");
         }
         else if (strcmp(option, "div") == 0) {
             // Division
@@ -89,7 +89,7 @@ int main() {
             } else {
                 printf("\n ‼️ ERROR: Division by zero is not allowed!\n");
             }
-            printf(" ------------------------------------------------\n");
+            printf(" ༒------------------------------------------------༒\n");
         }
         else if (strcmp(option, "square") == 0) {
             // Square
@@ -101,7 +101,7 @@ int main() {
                 while (getchar() != '\n'); // Clear the input buffer
             }
             printf("\n ✅ ANSWER: Square of %.2f is %.2f\n", num, num * num);
-            printf(" ------------------------------------------------\n");
+            printf(" ༒------------------------------------------------༒\n");
         }
         else if (strcmp(option, "cube") == 0) {
             // Cube
@@ -113,7 +113,7 @@ int main() {
                 while (getchar() != '\n'); // Clear the input buffer
             }
             printf("\n ✅ ANSWER: Cube of %.2f is %.2f\n", num, num * num * num);
-            printf(" ------------------------------------------------\n");
+            printf(" ༒------------------------------------------------༒\n");
         }
         else if (strcmp(option, "square_rt") == 0) {
             // Square Root
@@ -129,7 +129,7 @@ int main() {
             } else {
                 printf("\n ‼️ ERROR: Square root of a negative number is not allowed!\n");
             }
-            printf(" ------------------------------------------------\n");
+            printf(" ༒------------------------------------------------༒\n");
         }
         else if (strcmp(option, "cube_rt") == 0) {
             // Cube Root
@@ -145,7 +145,7 @@ int main() {
             } else {
                 printf("\n ‼️ ERROR: Cube root of a negative number is not allowed!\n");
             }
-            printf(" ------------------------------------------------\n");
+            printf(" ༒------------------------------------------------༒\n");
         }
         else if (strcmp(option, "power") == 0) {
             // Power
@@ -163,7 +163,7 @@ int main() {
                 while (getchar() != '\n'); // Clear the input buffer
             }
             printf("\n ✅ ANSWER: %.2f raised to the power %.2f is %.2f\n", base, exponent, pow(base, exponent));
-            printf(" ------------------------------------------------\n");
+            printf(" ༒------------------------------------------------༒\n");
         }
         else if (strcmp(option, "interest") == 0) {
             // Simple Interest
@@ -187,7 +187,7 @@ int main() {
                 while (getchar() != '\n'); // Clear the input buffer
             }
             printf("\n ✅ ANSWER: Simple Interest is %.2f\n", (principal * rate * time) / 100);
-            printf(" ------------------------------------------------\n");
+            printf(" ༒------------------------------------------------༒\n");
         }
         else if (strcmp(option, "finday") == 0) {
             // Find The Day
@@ -240,7 +240,7 @@ int main() {
             } else {
                 printf("\n ‼️ ERROR: Invalid date.\n");
             }
-            printf(" ------------------------------------------------\n");
+            printf(" ༒------------------------------------------------༒\n");
         }
         else if (strcmp(option, "multi_tb") == 0) {
             // Multiplication Table
@@ -260,7 +260,7 @@ int main() {
                 int result = table * i;
                 printf("\n ---->> %d X %d = %d <<----\n", table, i, result);
             }
-            printf(" ------------------------------------------------\n");
+            printf(" ༒------------------------------------------------༒\n");
         }
         else if (strcmp(option, "help") == 0) {
             // Help
@@ -278,35 +278,35 @@ int main() {
             printf(" (💠) Enter 'multi_tb' to select Multiplication Table.\n");
             printf(" (💠) Enter 'info' to select info.\n");
             printf(" (💠) Enter 'quit' to select exit.\n");
-            printf(" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+            printf(" ༒~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~༒\n");
         }
         else if (strcmp(option, "info") == 0) {
             // Info
-            printf("\n [❇] Overview :\n");
-            printf("	This guide provides information on how to use the C language calculator and its features.\n");
-            printf("	The calculator is a basic tool that can perform basic arithmetic operations such as addition, subtraction, multiplication, division and lot's more.\n");
-            printf("\n [❇] Code structure :\n");
-            printf("    The code is divided into two parts:\n");
-            printf("	The main function which handles the user input and displays the result.\n");
-            printf("	The calculator function which performs the calculation and returns the result.\n");
-            printf("\n [❇] Features :\n");
-            printf("	Performs basic arithmetic operations (addition, subtraction, multiplication, and division).\n");
-            printf("	User-friendly interface for entering numbers and operations.\n");
-            printf("	Provides results for simple calculations.\n");
-            printf("\n [❇] Limitations :\n");
-            printf("	Currently only performs basic arithmetic operations.\n");
-            printf("	No support for more advanced calculations.\n");
-            printf("	Can only handle two numbers at a time.\n");
-            printf("\n [❇] Support :\n");
-            printf("	For any questions or issues regarding the calculator, please contact the developer Soumalya Naskar.\n");
-            printf("	Just email <soumalya191@gmail.com> and you connect with the developer of this program.\n");
-            printf("\n [❇] Conclusion :\n");
-            printf("	This calculator is a simple and easy-to-use tool for basic arithmetic calculations.\n");
-            printf("	Its basic features make it a good choice for simple arithmetic operations, but it may not be suitable for more advanced calculations.\n");
-            printf(" ----------------------------------------------------------------------------------------------------------------------------------------\n");
+            printf("\n [༺𑗊༻] Overview :\n");
+            printf("	⌾ This guide provides information on how to use the C language calculator and its features.\n");
+            printf("	⌾ The calculator is a basic tool that can perform basic arithmetic operations such as addition, subtraction, multiplication, division and lot's more.\n");
+            printf("\n\n [༺𑗊༻] Code structure :\n");
+            printf("    ⌾ The code is divided into two parts:\n");
+            printf("	⌾ The main function which handles the user input and displays the result.\n");
+            printf("	⌾ The calculator function which performs the calculation and returns the result.\n");
+            printf("\n\n [༺𑗊༻] Features :\n");
+            printf("	⌾ Performs basic arithmetic operations (addition, subtraction, multiplication, and division).\n");
+            printf("	⌾ User-friendly interface for entering numbers and operations.\n");
+            printf("	⌾ Provides results for simple calculations.\n");
+            printf("\n\n [༺𑗊༻] Limitations :\n");
+            printf("	⌾ Currently only performs basic arithmetic operations.\n");
+            printf("	⌾ No support for more advanced calculations.\n");
+            printf("	⌾ Can only handle two numbers at a time.\n");
+            printf("\n\n [༺𑗊༻] Support :\n");
+            printf("	⌾ For any questions or issues regarding the calculator, please contact the developer Soumalya Naskar.\n");
+            printf("	⌾ Just email <soumalya191@gmail.com> and you connect with the developer of this program.\n");
+            printf("\n\n [༺𑗊༻] Conclusion :\n");
+            printf("	⌾ This calculator is a simple and easy-to-use tool for basic arithmetic calculations.\n");
+            printf("	⌾ Its basic features make it a good choice for simple arithmetic operations, but it may not be suitable for more advanced calculations.\n");
+            printf(" ༒----------------------------------------------------------------------------------------------------------------------------------------༒\n");
         }
         else if (strcmp(option, "quit") == 0) {
-            printf("\n ~~~~~ ⟽ ::: Good bye ::: ⟾ ~~~~~\n");
+            printf("\n ~~~~~ ꧁::: 👋🏻 Good Bye 👋🏻 :::꧂ ~~~~~\n");
             break; // Exit the program
         }
         else {
