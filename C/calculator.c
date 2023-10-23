@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <string.h>
 // This is a simple calculator.
 // Which can calculate plus, minus, multiply, division, square, cube and interest.
 int main() {
@@ -87,7 +88,7 @@ int main() {
             if (div_2 != 0) {
                 printf("\n ✅ ANSWER: %.2f divided by %.2f is %.2f\n", div_1, div_2, div_1 / div_2);
             } else {
-                printf("\n ‼️  ERROR: Division by zero is not allowed!\n");
+                printf("\n ‼️ ERROR: Division by zero is not allowed!\n");
             }
             printf(" ༄ ------------------------------------------------༒\n");
         }
@@ -127,7 +128,7 @@ int main() {
             if (num >= 0) {
                 printf("\n ✅ ANSWER: Square root of %.2f is %.2f\n", num, sqrt(num));
             } else {
-                printf("\n ‼️  ERROR: Square root of a negative number is not allowed!\n");
+                printf("\n ‼️ ERROR: Square root of a negative number is not allowed!\n");
             }
             printf(" ༄ ------------------------------------------------༒\n");
         }
@@ -143,7 +144,7 @@ int main() {
             if (num >= 0) {
                 printf("\n ✅ ANSWER: Cube root of %.2f is %.2f\n", num, cbrt(num));
             } else {
-                printf("\n ‼️  ERROR: Cube root of a negative number is not allowed!\n");
+                printf("\n ‼️ ERROR: Cube root of a negative number is not allowed!\n");
             }
             printf(" ༄ ------------------------------------------------༒\n");
         }
@@ -238,7 +239,7 @@ int main() {
             if (dayOfWeek >= 0 && dayOfWeek < 7) {
                 printf("\n ✅ ANSWER: The day on %d/%d/%d was %s.\n", day, month, year, days[dayOfWeek]);
             } else {
-                printf("\n ‼️  ERROR: Invalid date.\n");
+                printf("\n ‼️ ERROR: Invalid date.\n");
             }
             printf(" ༄ ------------------------------------------------༒\n");
         }
@@ -282,31 +283,31 @@ int main() {
         }
         else if (strcmp(option, "info") == 0) {
             // Info
-            printf("\n [𑗎 ] Overview ༻  :\n");
+            printf("\n [𑗎] Overview ༻ :\n");
             printf("	⌾ This guide provides information on how to use the C language calculator and its features.\n");
             printf("	⌾ The calculator is a basic tool that can perform basic arithmetic operations such as addition, subtraction, multiplication, division and lot's more.\n");
-            printf("\n\n [𑗎 ] Code structure ༻  :\n");
+            printf("\n\n [𑗎] Code structure ༻ :\n");
             printf("    ⌾ The code is divided into two parts:\n");
             printf("	⌾ The main function which handles the user input and displays the result.\n");
             printf("	⌾ The calculator function which performs the calculation and returns the result.\n");
-            printf("\n\n [𑗎 ] Features ༻  :\n");
+            printf("\n\n [𑗎] Features ༻ :\n");
             printf("	⌾ Performs basic arithmetic operations (addition, subtraction, multiplication, and division).\n");
             printf("	⌾ User-friendly interface for entering numbers and operations.\n");
             printf("	⌾ Provides results for simple calculations.\n");
-            printf("\n\n [𑗎 ] Limitations ༻  :\n");
+            printf("\n\n [𑗎] Limitations ༻ :\n");
             printf("	⌾ Currently only performs basic arithmetic operations.\n");
             printf("	⌾ No support for more advanced calculations.\n");
             printf("	⌾ Can only handle two numbers at a time.\n");
-            printf("\n\n [𑗎 ] Support ༻  :\n");
+            printf("\n\n [𑗎] Support ༻ :\n");
             printf("	⌾ For any questions or issues regarding the calculator, please contact the developer Soumalya Naskar.\n");
             printf("	⌾ Just email <soumalya191@gmail.com> and you connect with the developer of this program.\n");
-            printf("\n\n [𑗎 ] Conclusion ༻  :\n");
+            printf("\n\n [𑗎] Conclusion ༻ :\n");
             printf("	⌾ This calculator is a simple and easy-to-use tool for basic arithmetic calculations.\n");
             printf("	⌾ Its basic features make it a good choice for simple arithmetic operations, but it may not be suitable for more advanced calculations.\n");
             printf(" ༄ ----------------------------------------------------------------------------------------------------------------------------------------༒\n");
         }
         else if (strcmp(option, "quit") == 0) {
-            printf("\n ~~~~~ ꧁  ::: 👋 Good Bye 👋 :::꧂   ~~~~~\n\n");
+            printf("\n ~~~~~ ꧁::: 👋 Good Bye 👋 :::꧂ ~~~~~\n\n");
             break; // Exit the program
         }
         else {
