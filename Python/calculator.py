@@ -242,43 +242,43 @@ while list != 0:
  
 	elif option == "info": # Info.
 		print("""\n\033[0;3m [𑗎] \u001b[45;1mOverview\033[0;3m ༻ :
-	This guide provides information on how to use the Python calculator and its features.
-	The calculator is a basic tool that can perform basic arithmetic operations such as addition, subtraction, multiplication, division and lot's more.
+	⌾ This guide provides information on how to use the Python calculator and its features.
+	⌾ The calculator is a basic tool that can perform basic arithmetic operations such as addition, subtraction, multiplication, division and lot's more.
  
  [𑗎] \u001b[45;1mRequirements\033[0;3m ༻ :
-	Python 3.10 or higher version must be installed
-	Basic knowledge of Python programming
+	⌾ Python 3.10 or higher version must be installed
+	⌾ Basic knowledge of Python programming
     
  [𑗎] \u001b[45;1mCode structure\033[0;3m ༻ :
-     The code is divided into two parts:
-	The main function which handles the user input and displays the result
-	The calculator function which performs the calculation and returns the result
+ 	⌾ The code is divided into two parts:
+	⌾ The main function which handles the user input and displays the result
+	⌾ The calculator function which performs the calculation and returns the result
     
  [𑗎] \u001b[45;1mHow to use\033[0;3m ༻ :
-	Clone the repository or download the calculator.py file
-	Open terminal or command prompt and navigate to the directory where the file is located
-	Run the script by typing python calculator.py in the terminal or command prompt
-	Enter the option 'help' to know about all features
-	Enter the two numbers for the calculation
-	The result will be displayed on the screen
+	⌾ Clone the repository or download the calculator.py file
+	⌾ Open terminal or command prompt and navigate to the directory where the file is located
+	⌾ Run the script by typing python calculator.py in the terminal or command prompt
+	⌾ Enter the option 'help' to know about all features
+	⌾ Enter the two numbers for the calculation
+	⌾ The result will be displayed on the screen
     
  [𑗎] \u001b[45;1mFeatures\033[0;3m ༻ :
-	Performs basic arithmetic operations (addition, subtraction, multiplication, and division)
-	User-friendly interface for entering numbers and operations
-	Provides results for simple calculations
+	⌾ Performs basic arithmetic operations (addition, subtraction, multiplication, and division)
+	⌾ User-friendly interface for entering numbers and operations
+	⌾ Provides results for simple calculations
 
  [𑗎] \u001b[45;1mLimitations\033[0;3m ༻ :
-	Currently only performs basic arithmetic operations
-	No support for more advanced calculations
-	Can only handle two numbers at a time
+	⌾ Currently only performs basic arithmetic operations
+	⌾ No support for more advanced calculations
+	⌾ Can only handle two numbers at a time
     
  [𑗎] \u001b[45;1mSupport\033[0;3m ༻ :
-	For any questions or issues regarding the calculator, please contact the developer Soumalya Naskar.
-	Just email <soumalya191@gmail.com> and you connect with the developer of this program.
+	⌾ For any questions or issues regarding the calculator, please contact the developer Soumalya Naskar.
+	⌾ Just email <soumalya191@gmail.com> and you connect with the developer of this program.
 
  [𑗎] \u001b[45;1mConclusion\033[0;3m ༻ :
-	This calculator is a simple and easy-to-use tool for basic arithmetic calculations.
-	Its basic features make it a good choice for simple arithmetic operations, but it may not be suitable for more advanced calculations.\033[0;1m 
+	⌾ This calculator is a simple and easy-to-use tool for basic arithmetic calculations.
+	⌾ Its basic features make it a good choice for simple arithmetic operations, but it may not be suitable for more advanced calculations.\033[0;1m 
  \033[1;33m ༄ ---------------------------------------------------------------------------------------------------------------------------------------༒\n""")
  
 	elif option == "quit": # Exit.
