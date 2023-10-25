@@ -58,7 +58,7 @@ int main() {
             while (1) {
                 printf("\n [o] Enter the first number to multiply: ");
                 if (scanf("%f", &multi_1) == 1) break;
-                printf("[x]  ERROR: Please Enter a number value!\n");
+                printf(" [x] ERROR: Please Enter a number value!\n");
                 while (getchar() != '\n'); // Clear the input buffer
             }
             while (1) {
