@@ -78,7 +78,7 @@ while list != 0:
 		print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32m{float(div_1)} divided {float(div_2)} is {float(div_1) / float(div_2)}") 
 		print("\033[1;33m ༄ ------------------------------------------------༒\n")
 		
-	elif option == "squ": # Square.
+	elif option == "square": # Square.
 		def squre(x):
 			return x * x # Square function.
 		while True:
@@ -91,7 +91,7 @@ while list != 0:
 		print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32m{int(squ_1)} square is {float(ans)}")
 		print("\033[1;33m ༄ ------------------------------------------------༒\n")
 		
-	elif option == "cub": # Cube
+	elif option == "cube": # Cube
 		def cube(x):
 			return x * x * x # Cube function.
 		while True:
@@ -104,7 +104,7 @@ while list != 0:
 		print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32m{int(cub_1)} cube is {float(ans)}")
 		print("\033[1;33m ------------------------------------------------༒\n")
 		
-	elif option == "squrt": # Square Root.
+	elif option == "square_rt": # Square Root.
 		def sqrt(x, y = 0.0001):
 			sq_1 = x / 2
 			while abs(sq_1 * sq_1 - x) > y:
@@ -120,7 +120,7 @@ while list != 0:
 		print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32m{int(squrt_1)} square root is {float(ans)}")
 		print("\033[1;33m ༄ ------------------------------------------------༒\n")
 		
-	elif option == "cubrt": # Cube Root.
+	elif option == "cube_rt": # Cube Root.
 		def curt(x, y = 0.0001):
 			cu_1 = x / 2
 			while abs(cu_1 ** 3 - x) > y:
@@ -152,7 +152,7 @@ while list != 0:
 		print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32m{float(power_1)} to the power {float(power_2)} is {pow(float(power_1), float(power_2))}")
 		print("\033[1;33m ༄ ------------------------------------------------༒\n")
 		
-	elif option == "intrs": # Interest.
+	elif option == "interest": # Interest.
 		while True:
 			try:
 				intrs_1 = int(input("\n\033[0;37m [\033[1;32m🗸\033[0;37m] Enter your principal amount: "))
@@ -175,7 +175,7 @@ while list != 0:
 		print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32mYour total interest is {float(ans)} and your total amount will be {int(intrs_1) + float(ans)}")
 		print("\033[1;33m ༄ --------------------------------------------------------------------------------༒\n")
 
-	elif option == "findy": # Find Days.
+	elif option == "finday": # Find Days.
 		def find_day_on_date(year, month, day):
 			# Calculate the number of days between the given date and January 1, 1900
 			total_days = (year - 1900) * 365 + (year - 1901) // 4 - (year - 1801) // 100 + (year - 1601) // 400
@@ -211,7 +211,7 @@ while list != 0:
 		print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32mThe day on {day}/{month}/{year} was {days[day_of_week]}.")
 		print("\033[1;33m ༄ ------------------------------------------------༒\n")
 
-	elif option == "multb": # Multiplication Table
+	elif option == "multi_tb": # Multiplication Table
 		while True:
 			try:
 				table = int(input("\n\033[0;37m [\033[1;32m🗸\033[0;37m] Enter the number for multiplication table: "))
@@ -228,14 +228,14 @@ while list != 0:
  (💠️) Enter the \u001b[44m'minus'\033[0;37m option to minus second number from first number.
  (💠️) Enter the \u001b[44m'multi'\033[0;37m option to multiply two numbers.
  (💠️) Enter the \u001b[44m'div'\033[0;37m option to divide second number part of first number.
- (💠️) Enter the \u001b[44m'squ'\033[0;37m option to square a number.
- (💠️) Enter the \u001b[44m'cub'\033[0;37m option to cube a number.
- (💠️) Enter the \u001b[44m'squrt'\033[0;37m option to square root a number.
- (💠️) Enter the \u001b[44m'cubrt'\033[0;37m option to cube root a number.
+ (💠️) Enter the \u001b[44m'square'\033[0;37m option to square a number.
+ (💠️) Enter the \u001b[44m'cube'\033[0;37m option to cube a number.
+ (💠️) Enter the \u001b[44m'square_rt'\033[0;37m option to square root a number.
+ (💠️) Enter the \u001b[44m'cube_rt'\033[0;37m option to cube root a number.
  (💠️) Enter the \u001b[44m'power'\033[0;37m option to use power option.
- (💠️) Enter the \u001b[44m'intrs'\033[0;37m option to calculate interest.
- (💠️) Enter the \u001b[44m'findy'\033[0;37m option to find dates name.
- (💠️) Enter the \u001b[44m'multb'\033[0;37m option to print multiplication table.
+ (💠️) Enter the \u001b[44m'interest'\033[0;37m option to calculate interest.
+ (💠️) Enter the \u001b[44m'finday'\033[0;37m option to find dates name.
+ (💠️) Enter the \u001b[44m'multi_tb'\033[0;37m option to print multiplication table.
  (💠️) Enter the \u001b[44m'info'\033[0;37m option to this program information.
  (💠️) Enter the \u001b[44m'quit'\033[0;37m option to exit this program.
 \033[1;33m ༄ ------------------------------------------------༒\n""")
