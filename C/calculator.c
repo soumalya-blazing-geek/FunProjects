@@ -265,43 +265,43 @@ int main() {
         }
         else if (strcmp(option, "help") == 0) {
             // Help
-            printf("\n \e[0m(@) Enter \e[44m'plus'\e[0m to select \e[0;36mplus.\e[0m\n");
-            printf(" (@) Enter \e[44m'minus'\e[0m to select \e[0;36mminus.\e[0m\n");
-            printf(" (@) Enter \e[44m'multi'\e[0m to select \e[0;36mmultiplication.\e[0m\n");
-            printf(" (@) Enter \e[44m'div'\e[0m to select \e[0;36mdivision.\e[0m\n");
-            printf(" (@) Enter \e[44m'square'\e[0m to select \e[0;36msquare.\e[0m\n");
-            printf(" (@) Enter \e[44m'cube'\e[0m to select \e[0;36mcube.\e[0m\n");
-            printf(" (@) Enter \e[44m'square_rt'\e[0m to select \e[0;36msquare root.\e[0m\n");
-            printf(" (@) Enter \e[44m'cube_rt'\e[0m to select \e[0;36mcube root.\e[0m\n");
-            printf(" (@) Enter \e[44m'power'\e[0m to select \e[0;36mpower.\e[0m\n");
-            printf(" (@) Enter \e[44m'interest'\e[0m to select \e[0;36minterest.\e[0m\n");
-            printf(" (@) Enter \e[44m'finday'\e[0m to select \e[0;36mFind The Day.\e[0m\n");
-            printf(" (@) Enter \e[44m'multi_tb'\e[0m to select \e[0;36mMultiplication Table.\e[0m\n");
-            printf(" (@) Enter \e[44m'info'\e[0m to select \e[0;36minfo.\e[0m\n");
-            printf(" (@) Enter \e[44m'quit'\e[0m to select \e[0;36mexit.\e[0m\n");
+            printf("\n \e[0m(\e[44m@\e[0m) Enter \e[44m'plus'\e[0m to select \e[0;36mplus.\e[0m\n");
+            printf(" (\e[44m@\e[0m) Enter \e[44m'minus'\e[0m to select \e[0;36mminus.\e[0m\n");
+            printf(" (\e[44m@\e[0m) Enter \e[44m'multi'\e[0m to select \e[0;36mmultiplication.\e[0m\n");
+            printf(" (\e[44m@\e[0m) Enter \e[44m'div'\e[0m to select \e[0;36mdivision.\e[0m\n");
+            printf(" (\e[44m@\e[0m) Enter \e[44m'square'\e[0m to select \e[0;36msquare.\e[0m\n");
+            printf(" (\e[44m@\e[0m) Enter \e[44m'cube'\e[0m to select \e[0;36mcube.\e[0m\n");
+            printf(" (\e[44m@\e[0m) Enter \e[44m'square_rt'\e[0m to select \e[0;36msquare root.\e[0m\n");
+            printf(" (\e[44m@\e[0m) Enter \e[44m'cube_rt'\e[0m to select \e[0;36mcube root.\e[0m\n");
+            printf(" (\e[44m@\e[0m) Enter \e[44m'power'\e[0m to select \e[0;36mpower.\e[0m\n");
+            printf(" (\e[44m@\e[0m) Enter \e[44m'interest'\e[0m to select \e[0;36minterest.\e[0m\n");
+            printf(" (\e[44m@\e[0m) Enter \e[44m'finday'\e[0m to select \e[0;36mFind The Day.\e[0m\n");
+            printf(" (\e[44m@\e[0m) Enter \e[44m'multi_tb'\e[0m to select \e[0;36mMultiplication Table.\e[0m\n");
+            printf(" (\e[44m@\e[0m) Enter \e[44m'info'\e[0m to select \e[0;36minfo.\e[0m\n");
+            printf(" (\e[44m@\e[0m) Enter \e[44m'quit'\e[0m to select \e[0;36mexit.\e[0m\n");
             printf(" \e[1;93m*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*\e[0m\n");
         }
         else if (strcmp(option, "info") == 0) {
             // Info
-            printf("\n \e[0m[#] \e[45mOverview\e[0m :\n");
+            printf("\n \e[0m[\e[41m#\e[0m] \e[45mOverview\e[0m :\n");
             printf("	\e[3m~ This guide provides information on how to use the C language calculator and its features.\e[0m\n");
             printf("	\e[3m~ The calculator is a basic tool that can perform basic arithmetic operations such as addition, subtraction, multiplication, division and lot's more.\e[0m\n");
-            printf("\n [#] \e[45mCode structure\e[0m :\n");
+            printf("\n [\e[41m#\e[0m] \e[45mCode structure\e[0m :\n");
             printf("    \e[3m~ The code is divided into two parts:\e[0m\n");
             printf("	\e[3m~ The main function which handles the user input and displays the result.\e[0m\n");
             printf("	\e[3m~ The calculator function which performs the calculation and returns the result.\e[0m\n");
-            printf("\n [#] \e[45mFeatures\e[0m :\n");
+            printf("\n [\e[41m#\e[0m] \e[45mFeatures\e[0m :\n");
             printf("	\e[3m~ Performs basic arithmetic operations (addition, subtraction, multiplication, and division).\e[0m\n");
             printf("	\e[3m~ User-friendly interface for entering numbers and operations.\e[0m\n");
             printf("	\e[3m~ Provides results for simple calculations.\e[0m\n");
-            printf("\n [#] \e[45mLimitations\e[0m :\n");
+            printf("\n [\e[41m#\e[0m] \e[45mLimitations\e[0m :\n");
             printf("	\e[3m~ Currently only performs basic arithmetic operations.\e[0m\n");
             printf("	\e[3m~ No support for more advanced calculations.\e[0m\n");
             printf("	\e[3m~ Can only handle two numbers at a time.\e[0m\n");
-            printf("\n [#] \e[45mSupport\e[0m :\n");
+            printf("\n [\e[41m#\e[0m] \e[45mSupport\e[0m :\n");
             printf("	\e[3m~ For any questions or issues regarding the calculator, please contact the developer Soumalya Naskar.\e[0m\n");
             printf("	\e[3m~ Just email <soumalya191@gmail.com> and you connect with the developer of this program.\e[0m\n");
-            printf("\n [#] \e[45mConclusion\e[0m :\n");
+            printf("\n [\e[41m#\e[0m] \e[45mConclusion\e[0m :\n");
             printf("	\e[3m~ This calculator is a simple and easy-to-use tool for basic arithmetic calculations.\e[0m\n");
             printf("	\e[3m~ Its basic features make it a good choice for simple arithmetic operations, but it may not be suitable for more advanced calculations.\e[0m\n");
             printf(" \e[1;93m*-----------------------------------------------------------------------------------------------------------------------------------------*\e[0m\n");
