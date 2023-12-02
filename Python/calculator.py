@@ -75,7 +75,10 @@ while list != 0:
 				break
 			except ValueError:
 				print(" [\033[1;31m🗴\033[0;37m] OOPS\u001b[0m: \033[1;31mPlease Enter a number value!")
-		print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32m{float(div_1)} divided {float(div_2)} is {float(div_1) / float(div_2)}") 
+		if div_2 != 0:
+			print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32m{float(div_1)} divided {float(div_2)} is {float(div_1) / float(div_2)}")
+		else:
+			print("\n [\033[1;31m🗴\033[0;37m] ERROR\u001b[0m: \033[1;31mDivision by zero is not allowed!")
 		print("\033[1;33m ༄ ------------------------------------------------༒\n")
 		
 	elif option == "square": # Square.
@@ -105,35 +108,31 @@ while list != 0:
 		print("\033[1;33m ------------------------------------------------༒\n")
 		
 	elif option == "square_rt": # Square Root.
-		def sqrt(x, y = 0.0001):
-			sq_1 = x / 2
-			while abs(sq_1 * sq_1 - x) > y:
-				sq_1 = 0.5 * (sq_1 + x / sq_1)
-			return sq_1 # Square Root Function.
 		while True:
 			try:
 				squrt_1 = int(input("\n\033[0;37m [\033[1;32m🗸\033[0;37m] Enter a number to square root: "))
 				break
 			except ValueError:
 				print(" [\033[1;31m🗴\033[0;37m] OOPS\u001b[0m: \033[1;31mPlease Enter a number value!")
-		ans = float(sqrt(int(squrt_1)))
-		print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32m{int(squrt_1)} square root is {float(ans)}")
+		ans = squrt_1 ** (1/2)
+		if squrt_1 >= 0:
+			print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32m{int(squrt_1)} square root is {float(ans)}")
+		else:
+			print("\n [\033[1;31m🗴\033[0;37m] ERROR\u001b[0m: \033[1;31mSquare root of a negative number is not allowed!")
 		print("\033[1;33m ༄ ------------------------------------------------༒\n")
 		
 	elif option == "cube_rt": # Cube Root.
-		def curt(x, y = 0.0001):
-			cu_1 = x / 2
-			while abs(cu_1 ** 3 - x) > y:
-				cu_1 = (2 * cu_1 + x / (cu_1 ** 2)) / 3
-			return cu_1 # Cube Root Function.
 		while True:
 			try:
 				cubrt_1 = int(input("\n\033[0;37m [\033[1;32m🗸\033[0;37m] Enter a number to cube root: "))
 				break
 			except ValueError:
 				print(" [\033[1;31m🗴\033[0;37m] OOPS\u001b[0m: \033[1;31mPlease Enter a number value!")
-		ans = float(curt(int(cubrt_1)))
-		print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32m{int(cubrt_1)} cube root is {float(ans)}")
+		ans = cubrt_1 ** (1/3)
+		if cubrt_1 >= 0:
+			print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32m{int(cubrt_1)} cube root is {float(ans)}")
+		else:
+			print("\n [\033[1;31m🗴\033[0;37m] ERROR\u001b[0m: \033[1;31mCube root of a negative number is not allowed!")
 		print("\033[1;33m ༄ ------------------------------------------------༒\n")
 		
 	elif option == "power": # Power.
@@ -208,7 +207,10 @@ while list != 0:
 				print(" [\033[1;31m🗴\033[0;37m] OOPS\u001b[0m: \033[1;31mPlease Enter a number value!")
 		day_of_week = find_day_on_date(year, month, day)
 		days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-		print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32mThe day on {day}/{month}/{year} was {days[day_of_week]}.")
+		if day_of_week >=0 and day_of_week < 7:
+			print(f"\n ✅ \u001b[42mANSWER\u001b[0m: \033[1;32mThe day on {day}/{month}/{year} was {days[day_of_week]}.")
+		else:
+			print("\n [\033[1;31m🗴\033[0;37m] ERROR\u001b[0m: \033[1;31mInvalid date.")
 		print("\033[1;33m ༄ ------------------------------------------------༒\n")
 
 	elif option == "multi_tb": # Multiplication Table
