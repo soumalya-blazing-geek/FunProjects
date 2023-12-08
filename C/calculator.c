@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+#include <stdlib.h>
 // This is a simple calculator.
 // Which can calculate plus, minus, multiply, division, square, cube and interest.
 int main() {
+    system("clear"); // Clear the console
     printf(" \e[1;95m============================================\n");
     printf("  __.         .    __    .      .    ,       \n");
     printf(" (__ *._ _ ._ | _ /  ` _.| _.. .| _.-+- _ ._.\n");
@@ -263,22 +265,88 @@ int main() {
             }
             printf(" \e[0m\e[1;93m*-------------------------------------------------*\e[0m\n");
         }
+        else if (strcmp(option, "sin") == 0) {
+            // Sine
+            float angle;
+            printf("\n \e[0m[\e[1;92mo\e[0m] Enter the angle in degrees: ");
+            if (scanf("%f", &angle) == 1) {
+                printf("\n [=] \e[42mANSWER\e[0m\e[1;92m: Sin(%.2f) = %.4f\e[0m\n", angle, sin(angle * M_PI / 180));
+            } else {
+                printf(" [\e[1;91mx\e[0m] OOPS: \e[1;91mPlease Enter a valid angle!\e[0m\n");
+                while (getchar() != '\n');
+            }
+            printf(" \e[1;93m*-------------------------------------------------*\e[0m\n");
+        }
+        else if (strcmp(option, "cos") == 0) {
+            // Cosine
+            float angle;
+            printf("\n \e[0m[\e[1;92mo\e[0m] Enter the angle in degrees: ");
+            if (scanf("%f", &angle) == 1) {
+                printf("\n [=] \e[42mANSWER\e[0m\e[1;92m: Cos(%.2f) = %.4f\e[0m\n", angle, cos(angle * M_PI / 180));
+            } else {
+                printf(" [\e[1;91mx\e[0m] OOPS: \e[1;91mPlease Enter a valid angle!\e[0m\n");
+                while (getchar() != '\n');
+            }
+            printf(" \e[1;93m*-------------------------------------------------*\e[0m\n");
+        }
+        else if (strcmp(option, "tan") == 0) {
+            // Tangent
+            float angle;
+            printf("\n \e[0m[\e[1;92mo\e[0m] Enter the angle in degrees: ");
+            if (scanf("%f", &angle) == 1) {
+                printf("\n [=] \e[42mANSWER\e[0m\e[1;92m: Tan(%.2f) = %.4f\e[0m\n", angle, tan(angle * M_PI / 180));
+            } else {
+                printf(" [\e[1;91mx\e[0m] OOPS: \e[1;91mPlease Enter a valid angle!\e[0m\n");
+                while (getchar() != '\n');
+            }
+            printf(" \e[1;93m*-------------------------------------------------*\e[0m\n");
+        }
+        else if (strcmp(option, "log") == 0) {
+            // Natural logarithm
+            float num;
+            printf("\n \e[0m[\e[1;92mo\e[0m] Enter a number to find its natural logarithm: ");
+            if (scanf("%f", &num) == 1 && num > 0) {
+                printf("\n [=] \e[42mANSWER\e[0m\e[1;92m: Log(%.2f) = %.4f\e[0m\n", num, log(num));
+            } else {
+                printf(" [\e[1;91mx\e[0m] OOPS: \e[1;91mPlease Enter a valid positive number!\e[0m\n");
+                while (getchar() != '\n');
+            }
+            printf(" \e[1;93m*-------------------------------------------------*\e[0m\n");
+        }
+        else if (strcmp(option, "log10") == 0) {
+            // Logarithm base 10
+            float num;
+            printf("\n \e[0m[\e[1;92mo\e[0m] Enter a number to find its logarithm base 10: ");
+            if (scanf("%f", &num) == 1 && num > 0) {
+                printf("\n [=] \e[42mANSWER\e[0m\e[1;92m: Log10(%.2f) = %.4f\e[0m\n", num, log10(num));
+            } else {
+                printf(" [\e[1;91mx\e[0m] OOPS: \e[1;91mPlease Enter a valid positive number!\e[0m\n");
+                while (getchar() != '\n');
+            }
+            printf(" \e[1;93m*-------------------------------------------------*\e[0m\n");
+        }
         else if (strcmp(option, "help") == 0) {
             // Help
-            printf("\n \e[0m(\e[1;96m@\e[0m) Enter \e[44m'plus'\e[0m to select \e[0;36mplus.\e[0m\n");
-            printf(" (\e[1;96m@\e[0m) Enter \e[44m'minus'\e[0m to select \e[0;36mminus.\e[0m\n");
-            printf(" (\e[1;96m@\e[0m) Enter \e[44m'multi'\e[0m to select \e[0;36mmultiplication.\e[0m\n");
-            printf(" (\e[1;96m@\e[0m) Enter \e[44m'div'\e[0m to select \e[0;36mdivision.\e[0m\n");
-            printf(" (\e[1;96m@\e[0m) Enter \e[44m'square'\e[0m to select \e[0;36msquare.\e[0m\n");
-            printf(" (\e[1;96m@\e[0m) Enter \e[44m'cube'\e[0m to select \e[0;36mcube.\e[0m\n");
-            printf(" (\e[1;96m@\e[0m) Enter \e[44m'square_rt'\e[0m to select \e[0;36msquare root.\e[0m\n");
-            printf(" (\e[1;96m@\e[0m) Enter \e[44m'cube_rt'\e[0m to select \e[0;36mcube root.\e[0m\n");
-            printf(" (\e[1;96m@\e[0m) Enter \e[44m'power'\e[0m to select \e[0;36mpower.\e[0m\n");
-            printf(" (\e[1;96m@\e[0m) Enter \e[44m'interest'\e[0m to select \e[0;36minterest.\e[0m\n");
+            printf("\n \e[0m(\e[1;96m@\e[0m) Enter \e[44m'plus'\e[0m to select \e[0;36mPlus.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'minus'\e[0m to select \e[0;36mMinus.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'multi'\e[0m to select \e[0;36mMultiplication.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'div'\e[0m to select \e[0;36mDivision.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'square'\e[0m to select \e[0;36mSquare.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'cube'\e[0m to select \e[0;36mCube.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'square_rt'\e[0m to select \e[0;36mSquare Root.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'cube_rt'\e[0m to select \e[0;36mCube Root.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'power'\e[0m to select \e[0;36mPower.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'interest'\e[0m to select \e[0;36mInterest.\e[0m\n");
             printf(" (\e[1;96m@\e[0m) Enter \e[44m'finday'\e[0m to select \e[0;36mFind The Day.\e[0m\n");
             printf(" (\e[1;96m@\e[0m) Enter \e[44m'multi_tb'\e[0m to select \e[0;36mMultiplication Table.\e[0m\n");
-            printf(" (\e[1;96m@\e[0m) Enter \e[44m'info'\e[0m to select \e[0;36minfo.\e[0m\n");
-            printf(" (\e[1;96m@\e[0m) Enter \e[44m'quit'\e[0m to select \e[0;36mexit.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'sin'\e[0m to select \e[0;36mSine.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'con'\e[0m to select \e[0;36mCosine.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'tan'\e[0m to select \e[0;36mTangent.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'log'\e[0m to select \e[0;36mNatural Logarithm.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'log10'\e[0m to select \e[0;36mLogarithm Base 10.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'info'\e[0m to select \e[0;36mInfo.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'clear'\e[0m to select \e[0;36mClear.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'quit'\e[0m to select \e[0;36mExit.\e[0m\n");
             printf(" \e[1;93m*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*\e[0m\n");
         }
         else if (strcmp(option, "info") == 0) {
@@ -306,7 +374,19 @@ int main() {
             printf("	\e[3m~ Its basic features make it a good choice for simple arithmetic operations, but it may not be suitable for more advanced calculations.\e[0m\n");
             printf(" \e[1;93m*-----------------------------------------------------------------------------------------------------------------------------------------*\e[0m\n");
         }
+        else if (strcmp(option, "clear") == 0) {
+            // Clear
+            system("clear"); // Clear the console
+            printf(" \e[1;95m============================================\n");
+            printf("  __.         .    __    .      .    ,       \n");
+            printf(" (__ *._ _ ._ | _ /  ` _.| _.. .| _.-+- _ ._.\n");
+            printf(" .__)|[ | )[_)|(/,\\__.(_]|(_.(_||(_] | (_)[  \n");
+            printf("           |                                 \n");
+            printf(" =================== Made By \e[4;35mSoumalya Naskar\e[0m.\n");
+            // Reprint the headline after clear
+        }
         else if (strcmp(option, "quit") == 0) {
+            system("clear"); // Clear the console
             printf("\n \e[1;94m~~~~~\\\\ ::: \e[0m\e[43mGood Bye\e[0m\e[1;94m ::: //~~~~~\e[0m\n\n");
             break; // Exit the program
         }
