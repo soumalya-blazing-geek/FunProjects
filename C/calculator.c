@@ -12,6 +12,7 @@ int main() {
     printf(" .__)|[ | )[_)|(/,\\__.(_]|(_.(_||(_] | (_)[  \n");
     printf("           |                                 \n");
     printf(" =================== Made By \e[4;35mSoumalya Naskar\e[0m.\n");
+    printf("\n // \e[0;90m\e[3mType 'help' and press enter to see all options.\e[0m //\n");
     // This is headline
     while (1) {
         char option[15];
