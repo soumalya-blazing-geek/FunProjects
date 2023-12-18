@@ -341,7 +341,7 @@ int main() {
             printf(" (\e[1;96m@\e[0m) Enter \e[44m'finday'\e[0m to select \e[0;36mFind The Day.\e[0m\n");
             printf(" (\e[1;96m@\e[0m) Enter \e[44m'multi_tb'\e[0m to select \e[0;36mMultiplication Table.\e[0m\n");
             printf(" (\e[1;96m@\e[0m) Enter \e[44m'sin'\e[0m to select \e[0;36mSine.\e[0m\n");
-            printf(" (\e[1;96m@\e[0m) Enter \e[44m'con'\e[0m to select \e[0;36mCosine.\e[0m\n");
+            printf(" (\e[1;96m@\e[0m) Enter \e[44m'cos'\e[0m to select \e[0;36mCosine.\e[0m\n");
             printf(" (\e[1;96m@\e[0m) Enter \e[44m'tan'\e[0m to select \e[0;36mTangent.\e[0m\n");
             printf(" (\e[1;96m@\e[0m) Enter \e[44m'log'\e[0m to select \e[0;36mNatural Logarithm.\e[0m\n");
             printf(" (\e[1;96m@\e[0m) Enter \e[44m'log10'\e[0m to select \e[0;36mLogarithm Base 10.\e[0m\n");
